@@ -1018,3 +1018,15 @@ require('lazy').setup({
 --
 --
 import = 'custom.keymaps'
+
+-- Espaçamento da indentação
+vim.o.tabstop = 2 -- 2 espaços visuais para um <Tab>
+vim.o.shiftwidth = 2 -- 2 espaços quando autoindent ou << >>
+vim.o.softtabstop = 2 -- <BS> apaga 2 espaços
+vim.o.expandtab = true -- converte tabs em espaços
+
+-- Indentação automática
+vim.o.smartindent = true
+vim.o.autoindent = true
+
+vim.o.clipboard = 'unnamedplus'

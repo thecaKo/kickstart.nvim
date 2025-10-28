@@ -29,7 +29,7 @@ return {
         window = { border = 'rounded' },
       },
       menu = {
-        border = 'rounded',
+        border = 'none',
         winhighlight = 'Normal:Normal,FloatBorder:FloatBorder,CursorLine:PmenuSel,Search:None',
       },
       ghost_text = { enabled = true, hl_group = 'Comment' },
